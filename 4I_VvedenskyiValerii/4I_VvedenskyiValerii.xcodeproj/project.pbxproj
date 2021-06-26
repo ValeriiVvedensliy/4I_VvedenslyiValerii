@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E0AD9BE9268769AC00DBBEA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9BE8268769AC00DBBEA7 /* main.swift */; };
+		E0AD9BF126876CC800DBBEA7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9BF026876CC800DBBEA7 /* Car.swift */; };
+		E0AD9BF326876E4800DBBEA7 /* SportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9BF226876E4800DBBEA7 /* SportCar.swift */; };
+		E0AD9BF5268771BE00DBBEA7 /* TrackCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9BF4268771BE00DBBEA7 /* TrackCar.swift */; };
+		E0AD9BF82687731B00DBBEA7 /* ActionsCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9BF72687731B00DBBEA7 /* ActionsCar.swift */; };
+		E0AD9BFB2687743B00DBBEA7 /* ActionSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9BFA2687743B00DBBEA7 /* ActionSetting.swift */; };
+		E0AD9BFD2687747500DBBEA7 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9BFC2687747500DBBEA7 /* Actions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		E0AD9BE5268769AC00DBBEA7 /* 4I_VvedenskyiValerii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4I_VvedenskyiValerii; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AD9BE8268769AC00DBBEA7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E0AD9BF026876CC800DBBEA7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E0AD9BF226876E4800DBBEA7 /* SportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCar.swift; sourceTree = "<group>"; };
+		E0AD9BF4268771BE00DBBEA7 /* TrackCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCar.swift; sourceTree = "<group>"; };
+		E0AD9BF72687731B00DBBEA7 /* ActionsCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsCar.swift; sourceTree = "<group>"; };
+		E0AD9BFA2687743B00DBBEA7 /* ActionSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSetting.swift; sourceTree = "<group>"; };
+		E0AD9BFC2687747500DBBEA7 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,39 @@
 		E0AD9BE7268769AC00DBBEA7 /* 4I_VvedenskyiValerii */ = {
 			isa = PBXGroup;
 			children = (
+				E0AD9BF92687742100DBBEA7 /* Protocols */,
+				E0AD9BF6268772DD00DBBEA7 /* Enums */,
+				E0AD9BEF26876CB400DBBEA7 /* Classes */,
 				E0AD9BE8268769AC00DBBEA7 /* main.swift */,
 			);
 			path = 4I_VvedenskyiValerii;
+			sourceTree = "<group>";
+		};
+		E0AD9BEF26876CB400DBBEA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD9BF026876CC800DBBEA7 /* Car.swift */,
+				E0AD9BF226876E4800DBBEA7 /* SportCar.swift */,
+				E0AD9BF4268771BE00DBBEA7 /* TrackCar.swift */,
+				E0AD9BFC2687747500DBBEA7 /* Actions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E0AD9BF6268772DD00DBBEA7 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD9BF72687731B00DBBEA7 /* ActionsCar.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E0AD9BF92687742100DBBEA7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD9BFA2687743B00DBBEA7 /* ActionSetting.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AD9BF5268771BE00DBBEA7 /* TrackCar.swift in Sources */,
+				E0AD9BF82687731B00DBBEA7 /* ActionsCar.swift in Sources */,
+				E0AD9BF326876E4800DBBEA7 /* SportCar.swift in Sources */,
+				E0AD9BF126876CC800DBBEA7 /* Car.swift in Sources */,
+				E0AD9BFB2687743B00DBBEA7 /* ActionSetting.swift in Sources */,
 				E0AD9BE9268769AC00DBBEA7 /* main.swift in Sources */,
+				E0AD9BFD2687747500DBBEA7 /* Actions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
